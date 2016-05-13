@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--Copyright 2014 The MathWorks, Inc. -->
+<RTTPackageRepository>
+    <ThirdPartyPackage name="Arduino software (1.5.6-r2 Beta version)" url="http://arduino.cc">
+        <Platform name="PCWIN,PCWIN64" version="1.5.6-r2" filename="arduino.exe" destdir="arduino-1.5.6-r2" 
+                  installer="" archive="$[arduino156r2win:archive]" 
+                  downloadurl="$[arduino156r2win:baseurl]" 
+                  installcmd="matlab:unzip('$(DOWNLOADDIR)$(FILESEP)$(ARCHIVE)', '$(INSTALLDIR)')"
+                  removecmd=""
+                  licenseurl="http://www.mathworks.com/supportfiles/roth/License_ArduinoIDE.txt">
+        </Platform>
+        <Platform name="MACI64" version="1.5.6-r2" filename="Arduino.app" destdir="arduino-1.5.6-r2" 
+                  installer="" archive="$[arduino156r2mac:archive]" 
+                  downloadurl="$[arduino156r2mac:baseurl]"
+                  installcmd="matlab:unzip('$(DOWNLOADDIR)$(FILESEP)$(ARCHIVE)', '$(ROOTDIR)')"
+                  removecmd=""
+                  licenseurl="http://www.mathworks.com/supportfiles/roth/License_ArduinoIDE.txt">
+        </Platform>
+        <Platform name="GLNXA64" version="1.5.6-r2" filename="arduino" destdir="arduino-1.5.6-r2" 
+                  installer="" archive="$[arduino156r2linux:archive]" 
+                  downloadurl="$[arduino156r2linux:baseurl]"
+                  installcmd="matlab:system('tar -xzf $(DOWNLOADDIR)$(FILESEP)$(ARCHIVE) -C $(INSTALLDIR)')"
+                  removecmd=""
+                  licenseurl="http://www.mathworks.com/supportfiles/roth/License_ArduinoIDE.txt">
+        </Platform>
+    </ThirdPartyPackage>
+</RTTPackageRepository>

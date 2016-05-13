@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!--Copyright 2014 The MathWorks, Inc. -->
+<RTTPackageRepository>
+    <SupportPackage 
+        name="Arduino Due IDE" 
+        fullname="Arduino Due IDE" 
+        version="14.2.1" 
+        basecode="SL_ARDUINO_DUE_IDE"
+        platform="PCWIN,PCWIN64,GLNXA64,MACI64"
+        visible="0"
+        enable="1"
+        baseproduct="MATLAB"
+        url="http://www.mathworks.com" 
+        downloadurl=""
+        licenseurl=""
+        folder="arduinodueide" 
+        urlcatalog="urlcatalog.xml"
+        firmwareupdate=""
+        demoxml="">
+    <Path name="$(INSTALLDIR)/arduinodueide"></Path>
+    <FilesToPackage>
+    </FilesToPackage>  
+    </SupportPackage>
+</RTTPackageRepository>

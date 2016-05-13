@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Copyright 2014 The MathWorks, Inc.-->
+<lookupTable> 
+<entry name="firmata:license">http://www.mathworks.com/supportfiles/roth/License_ArduinoIDE.txt</entry> 
+<entry name="adafruitmotorshieldv2:license">http://www.mathworks.com/supportpackages/license/adamslv2</entry> 
+<entry name="adafruitmotorshieldv2:baseurl">https://github.com/adafruit/Adafruit_Motor_Shield_V2_Library/archive</entry> 
+<entry name="adafruitmotorshieldv2:archive">master.zip</entry> 
+<entry name="adafruitmotorshieldv2:foldername">Adafruit_Motor_Shield_V2_Library-master</entry> 
+<entry name="adafruitmotorshieldv2:destdir">Adafruit_MotorShield</entry> 
+</lookupTable>
